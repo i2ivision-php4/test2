@@ -1,0 +1,49 @@
+section{
+	margin-top: 100px;
+}
+img{
+	max-width: 80%;
+}
+
+ul.user-info{
+	list-style: none;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+ul.user-info li{
+	font-size: 16px;
+	padding-bottom: 7px;
+}
+
+.bio{
+	margin-bottom: 50px;
+}
+
+p{
+	font-size: 15px;
+	line-height: 23px;
+}
+
+footer{
+	background-color: #1f87c2;
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+
+}
+
+@media screen and (min-width: 1000px){
+	footer{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+@media screen and (min-width: 250px) and (max-width: 420px){
+	ul.user-info li{
+		font-size: 15px;
+	}
+}
